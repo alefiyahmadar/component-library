@@ -6,7 +6,11 @@ body {
 }
 
 :root{
-    --primary-color:#0f766e
+    --primary-color:#06b6d4;
+
+
+    --secondary-color:#0f766e;
+
 }
 
 
@@ -26,6 +30,7 @@ body {
     text-decoration: none;
     padding-left: 1rem;
     padding-right: 1rem;
+   
     
 }
 
@@ -34,7 +39,7 @@ body {
 color:white;
 background-color:var(--primary-color);
  border-radius: 0.5rem;
-
+ 
 
 }
 
@@ -50,36 +55,177 @@ background-color:var(--primary-color);
 .no-bullets{
 
     list-style: none;
+    padding: 1rem 1rem;
+    
 }
 .inline{
 
     display: inline; 
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     
+
     
+}
+
+.listhead{
+
+    color:#0891b2;
+
+    font-size: 2rem;
+}
+
+
+.movies{
+
+
+color: var(--secondary-color);
+
+font-family:  'Merriweather', serif;;
+
+font-size: 1.5rem;
+}
+.one{
+
+    padding: 1rem 0rem;
+}
+.space{
+    padding: 2rem 2rem;
 }
 
 .nav{
-    background-color: aqua;
-border-radius: 1rem;
-    
+    background-color:var(--primary-color);
+border-bottom-right-radius: 1rem;
+    padding: 1rem 1rem;
 }
 
+.navright{
+    text-align: right;
+}
 
 
 
 .brand{
 
     font-size: x-large;
-    color: var(--primary-color);
-    background-color: aqua;
+    color: var(--secondary-color);
+    
     padding: 1rem 1rem;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .block{
+
+
+    padding: 1rem 1rem;
+color:white
+ border-bottom-right-radius = 0.5rem;
+
+ font-size: larger;
+ 
+}
+
+.active{
+
+    font-weight: bold;
+}
+
+.imghead{
+
+    padding: 1rem 1rem;
+    
+}
+.img{
+
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+.imgclass{
+
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color:var(--secondary-color)
+
+}
+
+.imagedecor{
+
+    color:var(--primary-color)
+}
+
+.sec{ 
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.whitesec{
+padding: 1rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.whiteseco{
+padding: 1rem 1rem;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.seci{
+background-color: #e2e8f0
+;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.offwhiteseci{
+padding: 1rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+    
+}
+
+.offwhiteseco{
+padding: 1rem 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.novels{
+
+    text-align: center;
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+.padded{
+
+padding: 0rem 8rem;
+
+}
+
+.footer{
+padding: 1rem 1rem;
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+}
+
+.linked{
+
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footerh{
+
+   font-size: 2rem; 
+   color: var(--secondary-color);
+}
+.under{
+
     padding: 1rem 1rem;
 
-    font-size: larger;
-
-    
+    color: var(--secondary-color);
 }
