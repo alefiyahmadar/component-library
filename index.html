@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>component library</title>
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
 <body>
 <h1>@typography</h1>
 
-<h1>this is main heading</h1>
+<h1  >this is main heading</h1>
 <h2>this sub heading</h2>
 <h3>this is sub sub heading </h3>
 
-<small>this is small text</small>
+<small >this is small text</small>
 
 <p>this is para</p>
 
@@ -22,18 +24,18 @@
 <h1>@containers</h1>
 
 <h2>fluid container</h2>
-<h3>this will have context to specified length</h3>
+<h3 class="container" >this will have context to specified length</h3>
 
 <h2>center container</h2>
-<h3>this will have context in the center</h3>
+<h3 class="container container-center">this will have context in the center</h3>
 
 <hr/>
 
 <h1>@links</h1>
 
-<a href="/">primary link</a>
+<a class="link primary-link" href="/">primary link</a>
 
-<a href="/">secondary link</a>
+<a class="link secondary-link" href="/">secondary link</a>
     
 <hr/>
 
@@ -42,7 +44,7 @@
 
 <h2>unordered list no bullets</h2>
 
-<ul>
+<ul class="no-bullets">
     <li>passion</li>
     <li>determination</li>
     <li>compassion</li>
@@ -51,16 +53,16 @@
 
 <h2>inline list</h2>
 
-<ul>
-    <li>boat</li>
-    <li>sonic</li>
-    <li>beats</li>
+<ul class=" no-bullets"> 
+    <li class="inline">boat</li>
+    <li class="inline">sonic</li>
+    <li class="inline">beats</li>
 </ul>
 
 
 <h2>reverse order list</h2>
 
-<ol>
+<ol reversed >
     <li>mac</li>
     <li>acer</li>
     <li>lenovo</li>
@@ -70,14 +72,16 @@
 
 <h1>@nav</h1>
 
-<nav>i am botlive
+<nav class="nav">
+    <div class="brand"><strong>i am botlive </strong> </div>
 
-    <ul>
-        <li><a href="/">home</a></li>
+    <ul class="no-bullets">
 
-        <li><a href="/">products</a></li>
+        <li class="inline " ><a class="block" href="/">home </a></li>
 
-        <li><a href="/">about</a></li>
+        <li class="inline "><a class="block" href="/">products </a></li>
+
+        <li class=" inline "><a class="block" href="/">about </a></li>
 
     </ul>
 </nav>
@@ -113,7 +117,7 @@
 
 <h1>@footers</h1>
 
-<div>some heading in footers</div>
+<div >some heading in footers</div>
 
 <ul>
     <li>violet</li>
