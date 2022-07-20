@@ -6,10 +6,19 @@ body {
 }
 
 :root{
-    --primary-color:#06b6d4;
+    --primary-color:#2dd4bf
 
 
-    --secondary-color:#0f766e;
+    ;
+
+
+    --secondary-color:#0f766e
+
+
+
+
+
+    ;
 
 }
 
@@ -118,7 +127,7 @@ border-bottom-right-radius: 1rem;
 
 
     padding: 1rem 1rem;
-color:white
+color:var(--secondary-color)
  border-bottom-right-radius = 0.5rem;
 
  font-size: larger;
